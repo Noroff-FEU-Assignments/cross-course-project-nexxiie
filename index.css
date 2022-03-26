@@ -1,0 +1,21 @@
+
+h1 {
+    color: blue;
+}
+
+nav {
+    display: none;
+}
+
+#hamburger-menu{
+    display: none;
+}
+
+#hamburger-menu:checked ~ nav {
+    display: block;
+}
+
+img{
+    width: 100%;
+
+}
